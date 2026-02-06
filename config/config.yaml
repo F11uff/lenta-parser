@@ -1,14 +1,28 @@
 Lenta:
   URL: "https://samokat.ru"
-  APIURL: https://api.samokat.ru
+  APIURL: "https://api.samokat.ru"
   Timeout: 10
+  MaxRetries: 5
+  RetryDelay: 1
 
 Proxy:
   URL: "http://45.85.119.107:80"
   Type: "http"
   Enabled: true
 
+Store:
+  StoreID: "0075"
+  StoreName: "Москва"
+  StoreAddress: "г Москва, ул Тверская, д 1"
+  Latitude: 55.7558
+  Longitude: 37.6173
+
 Categories:
-  ID: 1
-  Name: Category 1
-  Path: /category/1
+  ID: "1"
+  Name: "Category 1"
+  Path: "/category/1"
+
+Export:
+  JSONEnabled: true
+  CSVEnabled: true
+  OutputDir: "./results"
