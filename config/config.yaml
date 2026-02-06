@@ -1,0 +1,14 @@
+Lenta:
+  URL: "https://samokat.ru"
+  APIURL: https://api.samokat.ru
+  Timeout: 10
+
+Proxy:
+  URL: "http://45.85.119.107:80"
+  Type: "http"
+  Enabled: true
+
+Categories:
+  ID: 1
+  Name: Category 1
+  Path: /category/1
